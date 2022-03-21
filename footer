@@ -171,7 +171,7 @@
                         <ul class="list-none mt-5 fs-s2">
                             <li class="my-3"><a href="https://twitter.com/joinmegafi" class="white opacity-70 no-underline hover-underline">Twitter
                                 </a></li>
-                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Discord</a>
+                            <li class="my-3"><a href="https://discord.gg/a2tq4gDwjU" class="white opacity-70 no-underline hover-underline">Discord</a>
                             </li>
                             <li class="my-3"><a href="#"
                                     class="white opacity-70 no-underline hover-underline">      </a></li>
@@ -182,7 +182,7 @@
                     <div class="w-33pc md-px-10 mb-10">
                         <h5 class="white"></h5>
                         <ul class="list-none mt-5 fs-s2">
-                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline"> Github</a></li>
+                            <li class="my-3"><a href="github.com/megafinetwork" class="white opacity-70 no-underline hover-underline"> Github</a></li>
                             <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">  Documentation    </a>
                             </li>
                             <li class="my-3"><a href="#"
@@ -194,12 +194,11 @@
                                                                                                               <div class="w-33pc md-px-10 mb-10">
                         <h5 class="white"></h5>
                         <ul class="list-none mt-5 fs-s2">
-                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">Medium
-                                    </a></li>
+                            <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">            </a></li>
                             <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">        </a>
                             </li>
                             <li class="my-3"><a href="#"
-                                    class="white opacity-70 no-underline hover-underline">  Youtube     </a></li>
+                                    class="white opacity-70 no-underline hover-underline">       </a></li>
                             <li class="my-3"><a href="#" class="white opacity-70 no-underline hover-underline">        </a>
                             </li>
                         </ul>
