@@ -12,10 +12,10 @@
             
             //DB Link
             
-            $username = 'root'; //db username
+            $username = ''; //db username
             $password = ''; //db password
-            $host = 'localhost'; // db host
-            $db = 'mega_air_drop'; //db name
+            $host = ''; // db host
+            $db = ''; //db name
             
             // create connection
 
@@ -24,7 +24,7 @@
             if($con){
 
                 //check address if already exists
-                $check_address = mysqli_query($con, "SELECT * FROM airdrop_wallet WHERE wallet_address=".$wallet_address."");
+                $check_address = mysqli_query($con, "SELECT * FROM airdrop_wallet WHERE wallet_address='".$wallet_address."'");
 
                 if(mysqli_num_rows($check_address)>=1){
                     $status = 2;
