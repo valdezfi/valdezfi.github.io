@@ -1,32 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <title>megafi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
         <link rel="icon" type="image/x-icon" sizes="16x16" href="images/favicon.ico">
         <link rel="manifest" href="images/site.webmanifest">
-        <title>megafi - Airdrop</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
-        <link rel="stylesheet" type="text/css"
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+    <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
-        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <style>
-            .danger{
-                color:red;
-            }
-            .success{
-                color:green;
-            }
-            .warning{
-                color:yellow;
-            }
-        </style>
-    </head>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+</head>
+
 <body class="bg-black muli">
     <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
         <div class="flex justify-between">
@@ -46,21 +35,111 @@
             <a href="https://megafi.gitbook.io/docs/" class="button bg-white black fw-600 no-underline mx-5">Documentation</a>
         </div>
     </nav>
-    <section class="p-10 md-p-l5">
-        <div class="br-8 bg-indigo-lightest-10 p-5 md-p-l5 flex flex-wrap md-justify-between md-items-center">
-            <div class="w-100pc md-w-33pc">
-                <h2 class="white fs-m4 fw-800">megaAirdrop</h2>
-                <p class="fw-600 indigo-lightest opacity-40"> We will announce the date of the airdrop. You can just add your metamask wallet info and join our discord to be up to date with the latest info related to the project.</p>
-            </div>
-            <div class="w-100pc md-w-50pc">
-                <div class="flex my-5">
-                    <input type="text"
-                        class="input-lg flex-grow-1 bw-0 fw-200 bg-indigo-lightest-10 white ph-indigo-lightest focus-white opacity-80 fs-s3 py-5 br-r-0"
-                        placeholder="Metamask Wallet Address" id="wallet_address">
-                        
-                    <button id="wallet_save" class="button-lg bg-white black fw-300 fs-s3 br-l-0">Get Started</button>
+    <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900" style="text-align: center;">earn crypto & repeat</h1>
+    <section id="features" class="p-10 md-p-l5">
+        <div class="flex flex-column md-flex-row mx-auto">
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <div  bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i
+                            data-feather="inbox" class="w-l5"></i></div>
+                    <h4 class="white fw-600 fs-m3 mb-5">No Signups </h4>
+                    <div class="indigo-lightest fw-600 fs-m1 lh-3 opacity-50">We dont need your email to sign up. All you need to do is connect your metamask wallet.</div>
+                    <!--<a href="#" class="button bg-indigo-lightest-10 fs-s3 white no-underline hover-opacity-100 hover-scale-up-1 ease-300"></a> -->
                 </div>
-                <div><p id="msg"></p></div>
+            </div>
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                   <!-- <div class="bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5">
+                        <i data-feather="cpu" class="w-l5"></i>
+                    </div> -->
+                    <h4 class="white fw-600 fs-m3 mb-5">Your Crypto Is Yours</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50"> You have 100% control of your crypto at all times. </div>
+                </div>
+            </div>
+          <div class="w-100pc md-w-40pc">
+              <div class="br-8 p-5 m-5">
+                   <!-- <div class="bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5">
+                        <i data-feather="database" class="w-l5"></i>
+                    </div> -->
+                    <h4 class="white fw-600 fs-m3 mb-5">Voting Power</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50"> Help us build a strong product by proposing ideas and the community vote on it</div> 
+                </div>
+                <div class="w-100pc md-w-50pc">
+                    <div class="flex my-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="features" class="p-10 md-p-l5">
+        <div class="flex flex-column md-flex-row mx-auto">
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <!--<div class="bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5">
+                        <i data-feather="inbox" class="w-l5"></i>
+                    </div>-->
+                    <h4 class="white fw-600 fs-m3 mb-5">Economy Based On Data </h4>
+                    <div class="indigo-lightest fw-600 fs-m1 lh-3 opacity-50">The mega economy is open and driven by data. </div>
+                   <!-- <a href="#" class="button bg-indigo-lightest-10 fs-s3 white no-underline hover-opacity-100 hover-scale-up-1 ease-300"></a> -->
+                </div>
+            </div>
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                   <!-- <div class="bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5">
+                        <i data-feather="cpu" class="w-l5"></i>
+                    </div> -->
+                    <h4 class="white fw-600 fs-m3 mb-5">Low Gas Fees</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">We built megafi on the polygon network.  </div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                   <!-- <div class="bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5">
+                        <i data-feather="database" class="w-l5"></i>
+                    </div> -->
+                    <h4 class="white fw-600 fs-m3 mb-5">Community Driven</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50"> We listen to you and want you to be informed about everything</div> 
+                </div>
+                <div class="w-100pc md-w-50pc">
+                    <div class="flex my-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 " style="text-align: center;">#EarnMega</h1>
+    <section id="features" class="p-10 md-p-l5">
+        <div class="flex flex-column md-flex-row mx-auto">
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <!--<div class="bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5">
+                        <i data-feather="inbox" class="w-l5"></i>
+                    </div> -->
+                    <h4 class="white fw-600 fs-m3 mb-5">Mega Farms </h4>
+                    <div class="indigo-lightest fw-600 fs-m1 lh-3 opacity-50">Put your digital assets to work for you by farming digital assets.</div>
+                    <!--<a href="#" class="button bg-indigo-lightest-10 fs-s3 white no-underline hover-opacity-100 hover-scale-up-1 ease-300"></a> -->
+                </div>
+            </div>
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <!--<div class="bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5">
+                        <i data-feather="cpu" class="w-l5"></i>
+                    </div> -->
+                    <h4 class="white fw-600 fs-m3 mb-5">Mega Passive Income</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">A whole new way to get passive income with you in control. </div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <!--<div class="bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5">
+                        <i data-feather="database" class="w-l5"></i>
+                    </div>-->
+                    <h4 class="white fw-600 fs-m3 mb-5">Mega Launch Pad</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50"> Discover the digital assets of innovative companies of tomorrow.</div> 
+                </div>
+                <div class="w-100pc md-w-50pc">
+                    <div class="flex my-5">
+                </div>
             </div>
         </div>
     </section>
@@ -69,7 +148,7 @@
         <div class="flex flex-wrap">
             <div class="md-w-25pc mb-10">
                
-                <img src="https://i.ibb.co/k1ZMX0m/megaFi.png" class="w-l5" alt="">
+                <img src="https://i.ibb.co/k1ZMX0m/megaFi.png" style="width:200px; height:auto;" class="w-l5" alt="">
                 <div class="white opacity-70 fs-s2 mt-4 md-pr-10">
                 </div>
             </div>
@@ -184,34 +263,6 @@
             });
         });
     </script>
-    <script>
-        $(document).ready(function(){
-            $("#wallet_save").on('click',function(){
-                $("#msg").html("");
-                var baseurl = "inc/";
-                var wallet_address = $("#wallet_address").val();
-                if(wallet_address !=""){
-                    $.ajax({
-                        url:baseurl+'/wallet.php?address='+wallet_address,
-                        type: 'GET',
-                        dataType: 'json',
-                        success:function(response){
-                            var status = response[0].status;
-                            if(status==1){
-                                $("#msg").html("We have received your wallet address. Thankyou!").addClass("success");
-                                $("#wallet_address").val("");
-                            }else if(status==2){
-                                $("#msg").html("We already have your wallet address in our database.").addClass("warning");
-                            }else{
-                                $("#msg").html("Please Try again").addClass("danger");
-                            }
-                        }
-                    });
-                }else{
-                    $("#msg").html("Please add a valid wallet address!").addClass("warning");
-                }
-            });
-        });
-    </script> 
 </body>
+
 </html>
