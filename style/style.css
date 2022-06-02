@@ -42,7 +42,52 @@ hr{
     background-repeat: no-repeat;
 }
 .mission-box{
-    background-color: #323232;
+    background-color: #FBFBFB1A;
+}
+.mission-radius{
+  border-radius: 10px;
+}
+.mission-border{
+  border: solid thin #FBFBFB40;
+}
+.lathe-images{
+  width:181px;
+  height:auto;
+}
+.lathe-images-small{
+  width:84px;
+  height:auto;
+}
+.lathe-special-text{
+  color:#FBFBFBB2;
+}
+
+.transparent-dropdown-border {
+  background-color: transparent !important;
+  border-radius: 10px;
+  border-left:solid thin #E5E5E5;
+  border-right:solid thin transparent;
+  border-top:solid thin #E5E5E5;
+  border-bottom:solid thin #E5E5E5;
+
+}
+.dropdown-menu{
+  background-color: black !important;
+}
+.transparent-input-border{
+  background-color: transparent !important;
+  border-radius: 10px;
+  border-right:solid thin #E5E5E5;
+  border-left:solid thin transparent;
+  border-top:solid thin #E5E5E5;
+  border-bottom:solid thin #E5E5E5;
+  color:#FFF !important;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+td{
+  color:#FFF;
 }
 h5{
     font-weight: 700;
