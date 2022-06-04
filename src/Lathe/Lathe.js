@@ -1,4 +1,4 @@
-import './App.css';
+import './Lathe.css';
 
 
 function Lathe() {
