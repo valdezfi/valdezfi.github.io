@@ -1,6 +1,6 @@
 import './LandingPage.css';
 
-function App() {
+function LandingPage() {
 
 
   return (
@@ -302,4 +302,4 @@ function App() {
   );
 }
 
-export default App;
+export default LandingPage;
