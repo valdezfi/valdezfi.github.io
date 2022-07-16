@@ -1,6 +1,7 @@
 <?php 
     //this will save the wallet address
-
+    header("Access-Control-Allow-Origin: *");
+    header("Access-Control-Allow-Headers: *");
     ini_set('display_errors', '1'); //this hides error if the value = 0,  1 will display errors 
 
     $status=0;
