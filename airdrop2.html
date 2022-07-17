@@ -187,7 +187,7 @@
                         success: function(response) {
                             var status = response[0].status;
                             if (status == 1) {
-                                $("#msg").html("We have received your wallet address. Thankyou!").addClass("success");
+                                $("#msg").html("We have received your wallet address. Thank you!").addClass("success");
                                 $("#wallet_address").val("");
                             } else if (status == 2) {
                                 $("#msg").html("We already have your wallet address in our database.").addClass("warning");
